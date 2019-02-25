@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+import "../styles/layout.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
-          <main>{children}</main>
+          <main style={{position: `relative`}}>{children}</main>
           <footer>
             © {new Date().getFullYear()}, Built with
             {` `}

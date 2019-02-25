@@ -1,0 +1,15 @@
+
+@import './variables.scss';
+
+header {
+    background-color: $light-pink;
+    height: 60vh;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+   display: flex;
+   flex-direction: column;
+}
