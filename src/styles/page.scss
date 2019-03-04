@@ -1,18 +1,19 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,700");
 
 body {
   font-family: $page-font;
-  background-color: $light-gray;
+  background-color: #a7e9f7;
 }
 .skills-container {
-    display: flex;
-    position: absolute;
-    top: -125px;
-    width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
 }
-
-.main-container {
-    background-color: grey;
-} 
+.skill-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

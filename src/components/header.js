@@ -5,10 +5,19 @@ import "../styles/header.scss";
 const Header = () => (
   <header>
     <div className="header-container">
-      <h1>Hi people, my name is Angela</h1>
-      <p>I'm a Web Developer</p>
-      <p>Welcome to my new website.</p>
+      <h1 className="name">Hi people, my name is Angela</h1>
+      <p className="title">I'm a Web Developer</p>
+      <p className="subtitle">Welcome to my new website.</p>
     </div>
+    
+    <svg class="bottom-curve bottom-curve1" width="100%" height="200px" viewBox="0 0 100 100" preserveAspectRatio="none">
+  <path id="pink" d="M0 100 C 20 -100 50 100 100 100 Z"></path>
+  <path id="lightblue" d="M0 100 C 20 0 50 100 70 100 Z"></path>
+  <path id="hotpink" d="M0 100 C 30 150 40 -70 100 100 Z"></path>
+  <path id="blue" d="M0 100 C 80 110 70 -100 100 100 Z"></path>
+</svg>
+    
+  
   </header>
 )
 
