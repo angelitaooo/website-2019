@@ -1,19 +1,26 @@
-@import "./variables.scss";
+@import './variables.scss';
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,700");
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,700');
 
 body {
   font-family: $page-font;
-  background-color: #a7e9f7;
 }
 .skills-container {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 5rem;
+}
+.skills__title {
+  color: #573975;
 }
 .skill-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.portfolio {
+  background-color: red;
+  width: 100%;
 }
