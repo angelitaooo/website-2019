@@ -1,50 +1,50 @@
-
-@import './variables.scss';
+@import "./variables.scss";
 
 .name {
-    font-size: 4rem;
-    color: #6c4297;
+  font-size: 4rem;
+  color: #6c4297;
 }
-.title {color: #33ced8;
-    font-size: 2rem;
-    font-weight: 500;
+.title {
+  color: #33ced8;
+  font-size: 2rem;
+  font-weight: 500;
 }
 .subtitle {
-    color: #14244a;
+  color: #14244a;
 }
-header {
-    background-color: $light-gray;
-    height: 60vh;
-    display: flex!important;
-    justify-content: center;
-    align-items: center;
+
+.Header {
+  background-color: $light-gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20vh;
 }
 
 .header-container {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.bottom-curve {
-    position: absolute;
-    padding-bottom: 0;
-    stroke: none;
-    margin: 0 auto;
-    top: 357px;
-  }
-  
-  #pink {
-    fill: rgba(232,104,174,0.5);
-  }
-  
-  #blue {
-    fill: rgba(166, 240, 255, 0.91);
-  }
-  
-  #hotpink {
-    fill: rgba(239,67,162,0.5);
-  }
-  
-  #lightblue {
-    fill: rgba(102,229,255,0.5);
-  }
+.Header__svg {
+  padding-bottom: 0;
+  stroke: none;
+  margin: 30px auto 0;
+}
+
+#pink {
+  fill: rgba(232, 104, 174, 0.5);
+}
+
+#blue {
+  fill: rgba(166, 240, 255, 0.91);
+}
+
+#hotpink {
+  fill: rgba(239, 67, 162, 0.5);
+}
+
+#lightblue {
+  fill: rgba(102, 229, 255, 0.5);
+}
