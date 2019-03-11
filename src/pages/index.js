@@ -51,8 +51,31 @@ const IndexPage = () => (
         </div>
       </section>
     </SectionContainer>
-    <SectionContainer color="red">
-      <section className="portfolio">portfolio</section>
+    <SectionContainer color="teal">
+      <section className="portfolio">
+        <div className="portfolio__grid portfolio__grid--left">
+          {Array.from({ length: 5 }).map((item, index) => (
+            <article key={index} className="portfolio__item">
+              <img src="https://placekitten.com/600/360" />
+              <header>
+                <h2>Project #1</h2>
+                <p>bla bla bla bla</p>
+              </header>
+            </article>
+          ))}
+        </div>
+        <div className="portfolio__grid portfolio__grid--right">
+          {Array.from({ length: 5 }).map((item, index) => (
+            <article key={index} className="portfolio__item">
+              <img src="https://placekitten.com/600/360" />
+              <header>
+                <h2>Project #2</h2>
+                <p>bla bla bla bla</p>
+              </header>
+            </article>
+          ))}
+        </div>
+      </section>
     </SectionContainer>
 
     <Link to="/page-2/">Go to page 2</Link>
