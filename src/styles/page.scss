@@ -9,64 +9,19 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-top: 5rem;
 }
-.skills__title {
-  color: #573975;
+.section__title {
+  color: $titles;
+  padding-top: 5rem;
+  text-align: center;
 }
 .skill-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 3rem;
 }
-
-.portfolio {
-  background: teal;
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
-
-  p,
-  h2 {
-    margin: 0;
-  }
-}
-
-.portfolio__grid--left {
-  .portfolio__item {
-    margin-top: 50px;
-    &:first-of-type {
-      margin-top: 0;
-    }
-  }
-}
-
-.portfolio__grid--right {
-  margin-top: 100px;
-
-  .portfolio__item {
-    margin-top: 50px;
-    &:first-of-type {
-      margin-top: 0;
-    }
-  }
-}
-
-.portfolio__item {
+.shadow {
   position: relative;
-
-  img {
-    margin: 0;
-    height: auto;
-    width: 100%;
-  }
-
-  header {
-    top: -25px;
-    position: relative;
-    width: 100%;
-  }
+  box-shadow: 0px 6px 15px -6px rgba(31, 7, 31, 0.66);
 }
