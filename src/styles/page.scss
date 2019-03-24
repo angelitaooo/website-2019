@@ -19,9 +19,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 3rem;
+  padding-bottom: 10rem;
 }
-.shadow {
-  position: relative;
-  box-shadow: 0px 3px 8px -6px rgba(31, 7, 31, 0.66);
+
+.about_me {
+  padding-bottom: 10rem;
 }
+// .shadow {
+//   position: relative;
+//   box-shadow: 0px 3px 8px -6px rgba(31, 7, 31, 0.66);
+// }
