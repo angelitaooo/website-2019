@@ -1,12 +1,17 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import '../styles/PortfolioItem.scss';
+import { withPrefix } from 'gatsby';
 
-const PortfolioItem = ({ image, title, description }) => (
+const PortfolioItem = ({ image, title, description, link }) => (
   <article className="portfolio__item">
-    <img src="https://placekitten.com/600/360" />
+    <img src={withPrefix(`images/${image}`)} />
     <header>
-      <h2>{title}</h2>
+      <h1>
+        <a href={link} target="_blank">
+          {title}
+        </a>
+      </h1>
       <p>{description}</p>
     </header>
   </article>
