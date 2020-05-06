@@ -7,6 +7,9 @@ import Skill from '../components/skill';
 import '../styles/page.scss';
 import SectionContainer from '../components/sectionContainer';
 import Portfolio from '../components/portfolio';
+import react from '../images/react.png';
+import angular from '../images/angular.png';
+import vue from '../images/vue.png';
 
 const IndexPage = () => (
   <Layout>
@@ -15,19 +18,10 @@ const IndexPage = () => (
       <section className="skills-container">
         <h1 className="section__title">Skills</h1>
         <div className="skill-wrapper">
-          <Skill
-            image="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
-            color="#192437"
-          />
+          <Skill image={react} color="#192437" />
           <Skill image="https://vuejs.org/images/logo.png" color="#baccff" />
-          <Skill
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png"
-            color="#e5adaf"
-          />
-          <Skill
-            image="https://www.grupohernandezalba.com/wp-content/uploads/2018/05/a32f83aa2c675058e4a05a0fd4da05eb.png"
-            color="#41b2d9"
-          />
+          <Skill image={angular} color="#e5adaf" />
+          <Skill image={vue} color="#41b2d9" />
           <Skill
             image="https://cdn.freebiesupply.com/logos/large/2x/bootstrap-4-logo-png-transparent.png"
             color="#e7b2e7"
