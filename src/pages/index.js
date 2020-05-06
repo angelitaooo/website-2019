@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <SectionContainer color="#dceffa">
-      <section id="skills-section" className="skills-container">
+      <section name="skills" className="skills-container">
         <h1 className="section__title">Skills</h1>
         <div className="skill-wrapper">
           <Skills />
@@ -20,7 +20,7 @@ const IndexPage = () => (
       </section>
     </SectionContainer>
     <SectionContainer>
-      <h1 id="about-me" className="section__title">
+      <h1 name="aboutMe" className="section__title">
         About me
       </h1>
       <p className="about_me">
@@ -32,7 +32,7 @@ const IndexPage = () => (
         methodologies.
       </p>
     </SectionContainer>
-    <SectionContainer color="#62b9e1">
+    <SectionContainer name="portfolio" color="#62b9e1">
       <h1 className="section__title">Portfolio</h1>
       <Portfolio />
     </SectionContainer>

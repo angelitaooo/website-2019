@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import '../styles/header.scss';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Header = ({ menuLinks }) => (
   <header className="Header">
@@ -13,10 +14,37 @@ const Header = ({ menuLinks }) => (
             </li>
           ))}
           <li className="menu_link">
-            <a href="#skills-section">Skills</a>
+            <ScrollLink
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Skills
+            </ScrollLink>
           </li>
           <li className="menu_link">
-            <a href="#about-me">About Me</a>
+            <ScrollLink
+              to="aboutMe"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About Me
+            </ScrollLink>
+          </li>
+          <li className="menu_link">
+            <ScrollLink
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Portfolio
+            </ScrollLink>
           </li>
         </ul>
       </nav>
