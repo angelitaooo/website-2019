@@ -35,4 +35,15 @@ export default {
       link: 'https://github.com/angelitaooo/face-recognition-brain',
     },
   ],
+  skills: [
+    { img: 'react.png', color: '#192437' },
+    { img: 'vue.png', color: '#baccff' },
+    { img: 'angular.png', color: '#e5adaf' },
+    { img: 'css.png', color: '#41b2d9' },
+    { img: 'bootstrap.png', color: '#e7b2e7' },
+    { img: 'html.png', color: '#ffd175' },
+    { img: 'git.png', color: '#7ba4c4' },
+    { img: 'sass.png', color: '#692369' },
+    { img: 'gatsby.png', color: '#dccae5' },
+  ],
 };
