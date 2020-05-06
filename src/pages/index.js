@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <SectionContainer color="#dceffa">
-      <section className="skills-container">
+      <section id="skills-section" className="skills-container">
         <h1 className="section__title">Skills</h1>
         <div className="skill-wrapper">
           <Skills />
@@ -20,7 +20,9 @@ const IndexPage = () => (
       </section>
     </SectionContainer>
     <SectionContainer>
-      <h1 className="section__title">About me</h1>
+      <h1 id="about-me" className="section__title">
+        About me
+      </h1>
       <p className="about_me">
         I'm a industrial engineer, but now I’m a self-taught software engineer
         with more than 2 years of professional experience as a frontend
