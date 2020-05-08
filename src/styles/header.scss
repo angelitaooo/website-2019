@@ -12,14 +12,17 @@
 .subtitle {
   color: $blue-two;
 }
-
-.Header {
-  background-color: $white;
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 20vh;
+  padding-top: 10vh;
 }
 
 .header-container {
@@ -50,7 +53,18 @@
 }
 
 .menu_link {
-  color: black;
   list-style-type: none;
   padding: 1rem;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-property: transform;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
