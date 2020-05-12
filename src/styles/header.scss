@@ -1,15 +1,70 @@
-
 @import './variables.scss';
 
-header {
-    background-color: $light-pink;
-    height: 60vh;
-    display: flex!important;
-    justify-content: center;
-    align-items: center;
+.name {
+  font-size: 4rem;
+  color: $titles;
+}
+.title {
+  color: $blue-one;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.subtitle {
+  color: $blue-two;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10vh;
 }
 
 .header-container {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header__svg {
+  padding-bottom: 0;
+  stroke: none;
+  margin: 30px auto 0;
+}
+
+#pink {
+  fill: rgba(232, 104, 174, 0.5);
+}
+
+#blue {
+  fill: rgba(219, 248, 254, 0.9411764705882353);
+}
+
+#hotpink {
+  fill: rgba(239, 67, 162, 0.5);
+}
+
+#lightblue {
+  fill: rgba(102, 229, 255, 0.5);
+}
+
+.menu_link {
+  list-style-type: none;
+  padding: 1rem;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-property: transform;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
