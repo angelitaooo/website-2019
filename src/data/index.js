@@ -45,5 +45,6 @@ export default {
     { img: 'git.png', color: '#7ba4c4' },
     { img: 'sass.png', color: '#692369' },
     { img: 'gatsby.png', color: '#dccae5' },
+    { img: 'redux.png', color: '#ffffff' },
   ],
 };
